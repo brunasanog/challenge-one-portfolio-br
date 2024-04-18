@@ -54,8 +54,8 @@ section.menu{
 
 .menu__list {
     display: flex;
-    gap: 30px;
     align-items: center;
+    gap: 30px;
 }
 
 .menu__list__item__bold {
@@ -65,7 +65,45 @@ section.menu{
 /*Sessão Title*/
 
 section.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 8% 3% 8%;
+}
 
+.title__div {
+    display: flex;
+    align-items: center;
+}
+
+.title__container {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.title__bio {
+    font-size: 3.2rem;
+    font-weight:bolder;
+}
+
+.title__subsection {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.title__network {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.title__profile {
+    width: 40%;
 }
 
 /*Sessão About*/
