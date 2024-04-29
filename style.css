@@ -134,6 +134,51 @@ section.about{
     font-weight: 100;
 }
 
+/*Sessão Skills*/
+
+section.skills {
+    background-color: var(--cor-de-fundo);
+    padding: 3% 8% 3% 8%;
+}
+
+.skills__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.skills__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__box{
+    display: flex;
+    align-items: end;
+    width: 176px; 
+    height: 174px; 
+    background-color: #fdd1d8;
+}
+
+.skills__box ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 7%;
+   
+}
+
+.skills__box ul li {
+    margin: 5px;
+
+}
+
+
+
+
+
 /*Sessão Hobbies*/
 
 section.hobbies{
