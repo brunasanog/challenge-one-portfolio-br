@@ -6,6 +6,8 @@ coloque nas sessões indicadas*/
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
+   --cor-secundaria: #e7d6e7;
+   --cor-terciaria: #a77aa7;
    --cor-de-link: #000;
 }
 
@@ -109,7 +111,7 @@ section.title{
 /*Sessão About*/
 
 section.about{
-    background-color: #fdd1d8;
+    background-color: var(--cor-secundaria);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,7 +161,7 @@ section.skills {
     align-items: end;
     width: 176px; 
     height: 174px; 
-    background-color: #fdd1d8;
+    background-color: var(--cor-secundaria);
 }
 
 .skills__box ul {
@@ -201,7 +203,7 @@ section.hobbies{
     align-items: end;
     width: 176px;
     height: 174px;
-    background-color: #fdd1d8;
+    background-color: var(--cor-secundaria);
 }
 
 .hobbies__box ul {
@@ -219,7 +221,7 @@ section.hobbies{
 /* Experiência Acadêmica*/
 
 section.academic{
-    background-color: #fdd1d8;
+    background-color: var(--cor-secundaria);
     padding: 3% 8% 3% 8%;
 }
 
@@ -250,31 +252,96 @@ section.academic{
     margin-bottom: 5%;
 }
 
+.academic__courses__list li {
+    margin-bottom: 2%;
+}
+
 .academic__courses__item__img img {
     width: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* experiência*/
 
-section.experience{
+.experience {
+    background-color: var(--cor-de-fundo);
+    padding: 3% 8% 3% 8%;
+}
 
+
+.experience__section__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#box__one {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction:row;
+    margin-bottom: 5%;
+    gap: 80px;
+}
+
+#box__two {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 5%;
+    gap: 80px;
+}
+
+#box__three {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+    gap: 80px;
+}
+
+#box__four {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 5%;
+    gap: 80px;
+}
+
+.experience__img {
+    width: 50%;
+}
+
+.experience__title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.experience__text {
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.experiencia__botao--repo,
+.experiencia__botao--demo {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-de-link);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.experiencia__botao--repo:hover,
+.experiencia__botao--demo:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-de-fundo);
 }
 
 /*Contato*/
