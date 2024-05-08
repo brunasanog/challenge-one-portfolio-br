@@ -27,10 +27,7 @@ a{
     color: var(--cor-de-link);
 }
 
-.all{
-    /* padding: 2% 15% 2% 15%; */
-    
-}
+
 
 * {
     margin: 0;
@@ -112,9 +109,6 @@ section.title{
 
 section.about{
     background-color: var(--cor-secundaria);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 3% 8% 3% 8%;
 }
 
@@ -223,10 +217,6 @@ section.hobbies{
 section.academic{
     background-color: var(--cor-secundaria);
     padding: 3% 8% 3% 8%;
-}
-
-.academic__courses{
-    
 }
 
 .academic__title {
@@ -342,18 +332,98 @@ section.academic{
 .experiencia__botao--demo:hover {
     background-color: var(--cor-terciaria);
     color: var(--cor-de-fundo);
+    cursor: pointer;
 }
 
 /*Contato*/
 
-section.formcontato{
+section.formcontato {
+    background-color: var(--cor-secundaria);
+    padding: 3% 8% 3% 8%;
+}
 
+#contato {
+    display:flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.formcontato__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.formcontato__subtext {
+    display: flex;
+    white-space: nowrap;
+    font-size: 0.85rem;
+    font-weight: 200;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formcontato__textarea {
+    resize: vertical;
+}
+
+.formcontato__botao {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--cor-terciaria);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2.5%;
+}
+
+.formcontato__botao:hover {
+    color: var(--cor-secundaria);
+    cursor: pointer;
 }
 
 /*footeer*/
 
 section.footer{
-   
+    background-color: var(--cor-de-fundo);
+    padding: 3% 8% 3% 8%;
+}
+
+.footer {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__rodape {
+    font-size: 0.9rem;
+}
+
+.footer__rodape p {
+    margin: 5px;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
