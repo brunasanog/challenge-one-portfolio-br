@@ -441,37 +441,44 @@ section.footer{
     justify-content: space-between;
     flex-direction: column-reverse;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    margin-bottom: 5%;
 
 }
 
 .title__bio {
     font-size: 2.2rem;
-    font-weight: bolder;
 }
 
 .title__subsection {
     font-size: 1.2rem;
-    font-weight: 100;
 }
 
 .title__network {
-    gap: 30px;
     font-size: 0.9rem;
-    font-weight: 100;
 }
 
 .title__profile {
     width: 60%;
 }
 
+/* about */
+
+.about__container {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 /*Skills*/
 
+.skills__title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .skills__block {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .skills__block>div {
@@ -479,21 +486,15 @@ section.footer{
 }
 
 .skills__box {
-    display: flex;
-    align-items: end;
     width: 224px;
     height: 118px;
-    background-color: var(--cor-secundaria);
 }
-
 
 /*Hobbies*/
 
 .hobbies__line {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    margin-bottom: 10%;
 }
 
 .hobbies__line>div {
@@ -501,11 +502,8 @@ section.footer{
 }
 
 .hobbies__box {
-    display: flex;
-    align-items: end;
     width: 224px;
     height: 118px;
-    background-color: var(--cor-secundaria);
 }
 
 .skills__block>div {
