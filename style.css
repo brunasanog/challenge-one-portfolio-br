@@ -34,7 +34,7 @@ section.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 8% 3% 8%;
+    padding: 3% 5%;
     font-size: 0.9rem; 
     gap: 80px;  
 }
@@ -61,7 +61,7 @@ section.menu{
 
 section.title{
     display: flex;
-    padding: 3% 5% 3% 8%;
+    padding: 3% 5%;
 }
 
 .title__div {
@@ -215,7 +215,7 @@ section.hobbies{
 
 section.academic{
     background-color: var(--cor-secundaria);
-    padding: 3% 8% 3% 8%;
+    padding: 3% 5%;
 }
 
 .academic__title {
@@ -228,7 +228,7 @@ section.academic{
 
 .academic__courses {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 
 }
@@ -238,7 +238,7 @@ section.academic{
     justify-content: center;
     align-items: center;
     width: 15rem;
-    height: 10rem;
+    height: 12rem;
     background-color: var(--cor-de-fundo);
     margin-bottom: 5%;
 }
