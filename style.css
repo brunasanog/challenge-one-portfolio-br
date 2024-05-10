@@ -237,8 +237,8 @@ section.academic{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 368px;
-    height: 286px;
+    width: 15rem;
+    height: 10rem;
     background-color: var(--cor-de-fundo);
     margin-bottom: 5%;
 }
@@ -248,7 +248,7 @@ section.academic{
 }
 
 .academic__courses__item__img img {
-    width: 50%;
+    width: 40%;
 }
 
 /* experiência*/
