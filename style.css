@@ -1,9 +1,9 @@
 
 :root{
 
-   --cor-de-fundo: #F5F5F5;
-   --cor-secundaria: #e7d6e7;
-   --cor-terciaria: #a77aa7;
+   --cor-de-fundo: #FFEAE3;
+   --cor-secundaria: #FFCBCB;
+   --cor-terciaria: #FFB1B1;
    --cor-de-link: #000;
 }
 
@@ -32,7 +32,7 @@ a{
 
 section.menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 3% 5%;
     font-size: 0.9rem; 
@@ -248,7 +248,7 @@ section.academic{
 }
 
 .academic__courses__item__img img {
-    width: 40%;
+    width: 50%;
 }
 
 /* Experiência Profissional*/
@@ -431,6 +431,11 @@ section.footer{
 @media (max-width: 768px) {
 
 /* Menu */
+
+section.menu {
+        justify-content: center;
+    }
+
 .menu__list__item {
         display: none;
     }
@@ -586,7 +591,7 @@ section.footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 40px;
  
 }
 
