@@ -572,14 +572,23 @@ section.footer{
 
 #contato {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 60px;
-    margin-top: 7%;
+ 
+}
+
+.formcontato--esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .formcontato__img {
-    width: 90%;
+    width: 100%;
 }
 
 }
