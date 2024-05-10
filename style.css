@@ -251,7 +251,7 @@ section.academic{
     width: 40%;
 }
 
-/* experiência*/
+/* Experiência Profissional*/
 
 .experience {
     background-color: var(--cor-de-fundo);
@@ -465,9 +465,13 @@ section.footer{
 /* about */
 
 .about__container {
-    width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
+    width: 90%;
+}
+
+.about__paragraph {
+    font-size: 1.2rem;
 }
 
 /*Skills*/
@@ -513,34 +517,18 @@ section.footer{
 /*Experiências acadêmicas*/
 
 .academic__title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+   margin-top: 5%;
 }
 
 .academic__courses {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     flex-wrap: wrap;
-    gap: 20px;
+    margin-bottom: 5%;
 
 }
 
 .academic__courses__list li:nth-child(1) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 296px;
     height: 118px;
-    background-color: var(--cor-de-fundo);
-    margin-bottom: 5%;
-}
-
-.academic__courses__list li {
-    margin-bottom: 2%;
 }
 
 .academic__courses__item__img img {
@@ -550,21 +538,46 @@ section.footer{
 
 /*Expeirência profissional*/
 
-.experiencia__botao--repo,
-.experiencia__botao--demo {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-de-link);
-    border: none;
-    padding: 5px 5px;
-    border-radius: 5px;
+.experience__section__title {
+    margin-top: 5%;
 }
 
-.experiencia__botao--repo:hover,
-.experiencia__botao--demo:hover {
-    background-color: var(--cor-terciaria);
-    color: var(--cor-de-fundo);
-    cursor: pointer;
+.experience__img {
+    width: 100%;
 }
+
+#box__one {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 5%;
+    gap: 20px;
+    margin-bottom: 15%;
+}
+
+#box__two {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 5%;
+    gap: 20px;
+    margin-bottom: 15%;
+}
+
+#box__three {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 5%;
+    gap: 20px;
+    margin-bottom: 15%;
+}
+
+#box__four {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 5%;
+    gap: 20px;
+    margin-bottom: 15%;
+}
+
 
 /* Contato */
 
