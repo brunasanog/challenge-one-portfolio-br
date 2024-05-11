@@ -427,7 +427,7 @@ section.footer{
     margin: 5px;
 }
 
-/*Smartphones e Tablets*/
+/*Smartphones*/
 @media (max-width: 768px) {
 
 /* Menu */
@@ -435,6 +435,10 @@ section.footer{
 section.menu {
         justify-content: center;
     }
+
+.menu__imagem__titulo {
+            font-size: 0.8rem;
+        }
 
 .menu__list__item {
         display: none;
