@@ -476,11 +476,13 @@ section.menu {
 .about__container {
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 90%;
+    width: 70%;
 }
 
 .about__paragraph {
     font-size: 1.2rem;
+    word-wrap: break-word;
+    width: calc(25ch);
 }
 
 /*Skills*/
