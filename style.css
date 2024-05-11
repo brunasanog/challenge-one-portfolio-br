@@ -442,7 +442,9 @@ section.footer{
     }
 
     .title__bio {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        word-wrap: break-word;
+        width: calc(25ch);
     }
 
     .title__subsection {
@@ -647,7 +649,9 @@ section.menu {
 }
 
 .title__bio {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    width: calc(23ch);
 }
 
 .title__subsection {
