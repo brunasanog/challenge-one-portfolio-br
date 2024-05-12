@@ -1,4 +1,3 @@
-
 // Valida Campos Genéricos
 function validaCampos(campoId, maxCaracteres) {
 
@@ -17,7 +16,6 @@ function validaCampos(campoId, maxCaracteres) {
 }
 
 // Valida Campo E-mail
-
 function validaCampoEmail() {
     const campoEmail = document.getElementById("email").value.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -33,7 +31,6 @@ function validaCampoEmail() {
     return { isValid: true };
 }
 
-
 // Valida Campos Genéricos
 function validaCampos(campoId, maxCaracteres) {
 
@@ -51,8 +48,8 @@ function validaCampos(campoId, maxCaracteres) {
 
 }
 
-// Valida Campo E-mail
 
+// Valida Campo E-mail
 function validaCampoEmail() {
     const campoEmail = document.getElementById("email").value.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -110,26 +107,24 @@ function validaTodosCampos() {
 
 // Valida Envio Botao
 document.getElementById("botao").addEventListener("click", function(event) {
-    event.preventDefault(); // Evita o comportamento padrão de envio do formulário
+    event.preventDefault();
 
     const isValid = validaTodosCampos();
     if (isValid) {
-        document.getElementById("error-envio").textContent = "Enviado!";
+        document.getElementById("sendMessage").textContent = "Enviado!";
     } else {
-        document.getElementById("error-envio").textContent = "Corrija os erros acima e tente novamente.";
+        document.getElementById("sendMessage").textContent = "Corrija os erros acima e tente novamente.";
     }
 });
 
 
-
-
 // Valida Envio Botao
 document.getElementById("botao").addEventListener("click", function(event) {
-    event.preventDefault(); // Evita o comportamento padrão de envio do formulário
+    event.preventDefault();
 
     const isValid = validaTodosCampos();
     if (isValid) {
-        document.getElementById("error-envio").textContent = "Enviado!";
+        document.getElementById("sendMessage").textContent = "Enviado!";
 
         document.getElementById("nome").value = "";
         document.getElementById("email").value = "";
@@ -137,9 +132,6 @@ document.getElementById("botao").addEventListener("click", function(event) {
         document.getElementById("mensagem").value = "";
 
     } else {
-        // Se houver campos inválidos, você pode exibir uma mensagem de erro ou realizar outra ação necessária
-        document.getElementById("error-envio").textContent = "Corrija os erros acima e tente novamente.";
+        document.getElementById("sendMessage").textContent = "Corrija os erros acima e tente novamente.";
     }
 });
-
-

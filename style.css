@@ -369,16 +369,19 @@ section.formcontato {
 
 .formcontato__form {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
+    gap: 5px;
 }
 
 .formcontato__input,
 .formcontato__textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
@@ -397,12 +400,23 @@ section.formcontato {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 2.5%;
+    margin-top: 3%;
+    margin-bottom: 2.5%;
 }
 
 .formcontato__botao:hover {
     color: var(--cor-secundaria);
     cursor: pointer;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 12px;
+}
+
+.sendMessage {
+    color: gray;
+    font-size: 12px;
 }
 
 /*footeer*/
