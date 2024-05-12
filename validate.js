@@ -126,6 +126,11 @@ document.getElementById("botao").addEventListener("click", function(event) {
     if (isValid) {
         document.getElementById("sendMessage").textContent = "Enviado!";
 
+        document.getElementById("error-nome").textContent = "";
+        document.getElementById("error-email").textContent = "";
+        document.getElementById("error-assunto").textContent = "";
+        document.getElementById("error-mensagem").textContent = "";
+
         document.getElementById("nome").value = "";
         document.getElementById("email").value = "";
         document.getElementById("assunto").value = "";
