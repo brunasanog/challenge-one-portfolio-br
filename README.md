@@ -1,10 +1,8 @@
-# Challenge ONE | Front End - Portfólio da Kill Joy
+# Front End - Portfólio da Kill Joy
 
 Oie! Tudo bem com você?
 
-Estou muito feliz em compartilhar este projeto que desenvolvi para o curso de Frontend da One ♡
-
-O projeto ainda está em desenvolvimento, mas já tenho uma prévia:
+Estou muito feliz em compartilhar este projeto frontend que desenvolvi ♡
 
 Deploy -> https://challenge-one-portfolio-br-bruna-sanogs-projects.vercel.app/
 
